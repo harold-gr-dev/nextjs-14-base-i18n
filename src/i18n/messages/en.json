@@ -9,5 +9,9 @@
   "about": {
     "title": "About",
     "description": "Welcome to the about page"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "Eng"
   }
 }

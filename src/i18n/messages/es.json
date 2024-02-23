@@ -9,5 +9,9 @@
   "about": {
     "title": "Sobre nosotros",
     "description": "Bienvenido a la página de sobre nosotros"
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar lenguaje",
+    "locale": "Esp"
   }
 }
