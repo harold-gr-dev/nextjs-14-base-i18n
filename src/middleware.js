@@ -7,8 +7,7 @@ let locales = ['es', 'en'];
 let defaultLocale = 'es';
 
 // Get the preferred locale, similar to the above or using a library
-function getLocale(request) {
-  console.log('🚀 ~ getLocale ~ request:', request);
+function getLocale() {
   return match(languages, locales, defaultLocale);
 }
 

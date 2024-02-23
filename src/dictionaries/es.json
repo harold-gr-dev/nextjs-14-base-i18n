@@ -1,4 +1,7 @@
 {
+  "heading": {
+    "langSwitcher": "Cambiar language"
+  },
   "home": {
     "title": "Inicio",
     "description": "Bienvenido a la página de inicio"

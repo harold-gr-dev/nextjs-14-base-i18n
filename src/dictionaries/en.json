@@ -1,4 +1,7 @@
 {
+  "heading": {
+    "langSwitcher": "Chnage language"
+  },
   "home": {
     "title": "Home",
     "description": "Welcome to the home page"
