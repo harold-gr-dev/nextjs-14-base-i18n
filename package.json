@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.4",
     "axios": "^1.6.7",
+    "negotiator": "^0.6.3",
     "next": "14.1.0",
     "react": "^18",
     "react-datepicker": "^6.1.0",
