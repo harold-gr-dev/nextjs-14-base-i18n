@@ -17,3 +17,11 @@ main {
 h1 {
   @apply text-4xl font-bold;
 }
+
+.menu-link {
+  @apply text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 mx-1.5 sm:mx-6;
+
+  &.active {
+    @apply border-blue-500;
+  }
+}
