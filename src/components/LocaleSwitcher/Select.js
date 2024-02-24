@@ -3,7 +3,7 @@
 import clsx from 'clsx';
 import { useParams } from 'next/navigation';
 import { useTransition } from 'react';
-import { useRouter, usePathname } from '../navigation';
+import { useRouter, usePathname } from '@/components/navigation';
 
 export default function LocaleSwitcherSelect({
   children,
