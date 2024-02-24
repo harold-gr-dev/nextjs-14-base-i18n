@@ -1,0 +1,23 @@
+{
+  "home": {
+    "title": "Inicio",
+    "description": "Bienvenido a la página de inicio"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "description": "Bienvenido a la página de sobre nosotros"
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Bienvenido a la página de contacto"
+  },
+  "LocaleSwitcher": {
+    "label": "Lenguaje",
+    "locale": "Esp"
+  },
+  "navBar": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "contact": "Contacto"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "home": {
+    "title": "Home",
+    "description": "Welcome to the home page"
+  },
+  "about": {
+    "title": "About",
+    "description": "Welcome to the about page"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Welcome to the contact page"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "locale": "Eng"
+  },
+  "navBar": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  }
+}
