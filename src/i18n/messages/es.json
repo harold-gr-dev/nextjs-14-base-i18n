@@ -1,7 +1,4 @@
 {
-  "heading": {
-    "langSwitcher": "Cambiar language"
-  },
   "home": {
     "title": "Inicio",
     "description": "Bienvenido a la página de inicio"
@@ -13,5 +10,9 @@
   "LocaleSwitcher": {
     "label": "Lenguaje",
     "locale": "Esp"
+  },
+  "navBar": {
+    "home": "Inicio",
+    "about": "Sobre nosotros"
   }
 }

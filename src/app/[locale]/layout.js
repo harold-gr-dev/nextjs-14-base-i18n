@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 // Components
-import LocaleSwitcher from '@/components/LocaleSwitcher';
+import NavBar from '@/components/NavBar';
 
 export const metadata = {
   title: 'Create Next App',
@@ -16,7 +16,7 @@ export default function RootLayout({ children, params: { locale = 'es' } }) {
     <html lang={locale}>
       <body className={inter.className}>
         {/* Heading */}
-        <LocaleSwitcher />
+        <NavBar />
         <main>{children}</main>
         {/* Fotter */}
       </body>

@@ -10,5 +10,9 @@
   "LocaleSwitcher": {
     "label": "Language",
     "locale": "Eng"
+  },
+  "navBar": {
+    "home": "Home",
+    "about": "About"
   }
 }
