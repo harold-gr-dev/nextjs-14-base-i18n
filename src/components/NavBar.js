@@ -7,6 +7,7 @@ import LocaleSwitcher from '@/components/LocaleSwitcher';
 const links = [
   { name: 'home', href: '/' },
   { name: 'about', href: '/about' },
+  { name: 'contact', href: '/contact' },
 ];
 
 const Component = () => {

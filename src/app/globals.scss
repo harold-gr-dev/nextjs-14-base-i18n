@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  @apply min-h-screen;
+  @apply min-h-screen max-w-[1000px] mx-auto m-20 p-10 text-center bg-white/40 rounded-md;
 }
 
 h1 {

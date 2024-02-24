@@ -7,12 +7,17 @@
     "title": "Sobre nosotros",
     "description": "Bienvenido a la página de sobre nosotros"
   },
+  "contact": {
+    "title": "Contacto",
+    "description": "Bienvenido a la página de contacto"
+  },
   "LocaleSwitcher": {
     "label": "Lenguaje",
     "locale": "Esp"
   },
   "navBar": {
     "home": "Inicio",
-    "about": "Sobre nosotros"
+    "about": "Sobre nosotros",
+    "contact": "Contacto"
   }
 }

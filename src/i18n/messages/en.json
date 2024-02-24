@@ -7,12 +7,17 @@
     "title": "About",
     "description": "Welcome to the about page"
   },
+  "contact": {
+    "title": "Contact",
+    "description": "Welcome to the contact page"
+  },
   "LocaleSwitcher": {
     "label": "Language",
     "locale": "Eng"
   },
   "navBar": {
     "home": "Home",
-    "about": "About"
+    "about": "About",
+    "contact": "Contact"
   }
 }
