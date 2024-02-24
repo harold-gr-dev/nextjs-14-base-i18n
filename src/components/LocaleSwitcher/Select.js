@@ -29,22 +29,23 @@ export default function LocaleSwitcherSelect({
   }
 
   return (
-    <label
-      className={clsx(
-        'relative text-gray-400',
-        isPending && 'transition-opacity [&:disabled]:opacity-30'
-      )}
-    >
-      <p className='sr-only'>{label}</p>
-      <select
-        className='inline-flex appearance-none bg-transparent py-3 pl-2 pr-6'
-        defaultValue={defaultValue}
-        disabled={isPending}
-        onChange={onSelectChange}
+    <div className='my-2 flex justify-end'>
+      <div
+        className={clsx(
+          'relative bg-white text-black max-w-[200px] rounded-md flex items-center',
+          isPending && 'transition-opacity [&:disabled]:opacity-30'
+        )}
       >
-        {children}
-      </select>
-      <span className='pointer-events-none absolute right-2 top-[8px]'>⌄</span>
-    </label>
+        <label className='text-black text-xs min-w-[80px] p-3'>{label}</label>
+        <select
+          className='p-3 w-full min-w-24 border-gray-300 rounded-md border-2 mx-2'
+          defaultValue={defaultValue}
+          disabled={isPending}
+          onChange={onSelectChange}
+        >
+          {children}
+        </select>
+      </div>
+    </div>
   );
 }
